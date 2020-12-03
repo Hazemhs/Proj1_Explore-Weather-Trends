@@ -1,0 +1,4 @@
+select T1.year, city, country, T1.avg_temp as avg_temp_city, T2.avg_temp as avg_temp_global 
+from city_data T1 inner join global_data T2 
+on T1.year=T2.year 
+where city in (select city from city_list where city in ('Damascus'))
