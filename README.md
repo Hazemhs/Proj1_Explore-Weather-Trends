@@ -1,4 +1,4 @@
-# Proj1_Explore-Weather-Trends
+# Explore Weather Trends
 
 ## Context
 
